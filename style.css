@@ -1,114 +1,101 @@
-html{
+html {
     box-sizing: border-box;
-    height: 100%
+    height: 100%;
 }
 
 *,
 *::before,
-&::after
-{
+*::after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     align-items: center;
-     display: flex;
+    background: white;
+    display: flex;
     font-family: 'Dosis', sans-serif;
     font-display: swap;
     height: inherit;
     justify-content: center;
-
 }
 
-.wrapper{
+.wrapper {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    background: linear-gradient(320deg, #7f143d, #3d0d59, #bde0fe, #7f253b);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    background: linear-gradient(320deg, #a3b18a, #588157, #3a5a40);
     flex-basis: 400px;
     height: 540px;
-    padding: 25px 35px;
-
+    padding: 20px 35px;
 }
 
-.screen{
+.screen {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background: rgba(255, 255, 255, 0.75);
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
-    color: black;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
     font-size: 35px;
     overflow: auto;
     padding: 20px;
     text-align: right;
-    width: 320px;
-    
+    width: 326px;
 }
 
-.calc-button-row{
-
+.calc-button-row {
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
-
 }
 
-.calc-button{
+.calc-button {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255, 255, 255, 0.85);
+    background:#dad7cd;
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
-    color: black;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
     flex-basis: 20%;
     font-family: inherit;
     font-size: 24px;
     height: 65px;
-
 }
 
-.calc-button:last-child
-{
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(189, 244, 254);
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
-    color: black;
-
+.calc-button:last-child {
+    color: #fff;
+    background: #283618;
 }
 
-
-.calc-button:last-child:hover
-{
-
-    background: rgba(189, 244, 254, 0.75);
-
-}
-
-.calc-button:hover
-{
-
-    background: rgba(255, 255, 255, 0.50);
-
-}
-
-.double{
-    flex-basis: 47%;
-
-}
-
-.triple{
-    flex-basis: 74%;
+.calc-button:last-child:hover {
+    background: #587437;
+    color: inherit;
     
 }
 
+.calc-button:hover {
+    background: #ffffff;
+}
+
+.calc-button:active {
+    background-color: #e9c46a;
+}
+
+.double {
+    flex-basis: 47%;
+}
+
+.triple {
+    flex-basis: 47%;
+}
+
+.pi-button {
+    flex-basis: 20%;
+}
