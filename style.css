@@ -14,7 +14,6 @@ html{
 
 body{
     align-items: center;
-    background: linear-gradient(320deg, #7f143d, #3d0d59, #bde0fe, #7f253b);
      display: flex;
     font-family: 'Dosis', sans-serif;
     font-display: swap;
@@ -28,11 +27,9 @@ body{
     -webkit-backdrop-filter: blur(5.5px);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
-    color: black;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
-    background: rgba(255, 255, 255, 0.30);
-    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: linear-gradient(320deg, #7f143d, #3d0d59, #bde0fe, #7f253b);
     flex-basis: 400px;
     height: 540px;
     padding: 25px 35px;
@@ -52,6 +49,7 @@ body{
     padding: 20px;
     text-align: right;
     width: 320px;
+    
 }
 
 .calc-button-row{
@@ -65,7 +63,7 @@ body{
 .calc-button{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.85);
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
@@ -81,19 +79,19 @@ body{
 {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(189, 244, 254);
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
     color: black;
-    background-color: #7f253b;
+
 }
 
 
 .calc-button:last-child:hover
 {
 
-    background: rgba(127, 37, 59, 0.75);
+    background: rgba(189, 244, 254, 0.75);
 
 }
 
@@ -105,7 +103,7 @@ body{
 }
 
 .double{
-    flex-basis: 46%;
+    flex-basis: 47%;
 
 }
 
